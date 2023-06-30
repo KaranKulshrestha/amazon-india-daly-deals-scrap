@@ -1,0 +1,11 @@
+Step-1. Run --> pip install -r requirements.txt
+Step-2. Run --> python scrap.py or python3 scrap.py
+
+## See the Majic
+
+## 100% accurate data of Amazon Daily Deals
+
+just a working proof later this script can be used in api building then integrate in frontend or schedule as a cron job so daily scrap and 
+save in excel sheet. so no worries it is just a demo.
+
+## if any problem contact me 6397521955 || karankulx@gmail.com

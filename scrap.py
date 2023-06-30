@@ -96,13 +96,15 @@ def fetchData(dealid):
     print(product)
     print("\n")
 
-print(len(products))
-print("\n")
-print(products)
+print("Start Scrapping Amazon Daily Deals just wait a minute....")
 
-if __name__ == '__main__':
-    result =[]
-    with ThreadPoolExecutor(max_workers=40) as executor:
-        executor.map(fetchData, ids)
+
+for lin in ids:
+  fetchData(lin)
+
+# if __name__ == '__main__':
+#     result =[]
+#     with ThreadPoolExecutor(max_workers=40) as executor:
+#         executor.map(fetchData, ids)
   
-
+print("Thank you for using our tool built by Karan kulshrestha")
